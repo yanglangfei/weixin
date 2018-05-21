@@ -2,13 +2,14 @@ package com.test.demo.controller;
 
 import com.test.demo.util.SignUtil;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class IndexController {
 
-    @GetMapping("/index")
+    @RequestMapping("/index")
     public  String receiverMsg(@RequestParam("signature") String signature,
                                @RequestParam("timestamp") String timestamp,
                                @RequestParam("nonce") String nonce,

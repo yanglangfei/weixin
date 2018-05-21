@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 public class SignUtil {
     // 与接口配置信息中的Token要一致
-    private static String token = "wewrewrwere";
+    private static String token = "wewrewrwere123132";
 
     /**
      * 验证签名
